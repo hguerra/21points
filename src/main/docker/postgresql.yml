@@ -6,6 +6,6 @@ services:
         #     - ~/volumes/jhipster/TwentyOnePoints/postgresql/:/var/lib/postgresql/data/
         environment:
             - POSTGRES_USER=TwentyOnePoints
-            - POSTGRES_PASSWORD=
+            - POSTGRES_PASSWORD=twentyonepoints
         ports:
             - 5432:5432
